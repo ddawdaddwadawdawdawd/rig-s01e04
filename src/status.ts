@@ -1,6 +1,6 @@
 import { readdirSync } from 'node:fs';
 import type { RigConfig } from './config.js';
-import { readNight } from './digest/types.js';
+import { readNight } from './digest/reader.js';
 import { lastBeat, type Beat } from './heartbeat.js';
 
 export type NightSummary = {
