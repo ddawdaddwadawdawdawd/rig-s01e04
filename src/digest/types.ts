@@ -18,4 +18,3 @@ export type NightDigest = {
 
 /** Returns null when the night has no log file. */
 export type ReadNight = (runsDir: string, night: string) => NightDigest | null;
-
